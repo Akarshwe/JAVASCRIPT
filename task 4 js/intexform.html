@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./taskform.js"></script>
+</head>
+<body>
+    <h1 style="margin-left: 50px;">Registration Form</h1>
+    <br>
+    <form action=" " onsubmit="return validated()">
+    <p>
+        <label style="margin-left: 50px;">User id :</label>
+         <input type="text" id="fname" placeholder="ENTER USER ID" style="margin-left: 20px;" size="20px" required />
+    </p>
+    <p>
+        <label style="margin-left: 50px;">Password :</label>
+        <input type="password" id="password" placeholder="ENTER PASSWORD"  style="margin-left: 5px;" size="20px" required/>
+    </p>
+    <p>
+        <label style="margin-left: 50px;">Name :</label>
+        <input type="text" id="iname" placeholder="ENTER NAME" required style="margin-left: 28px;" size="60px" />
+    </p>
+    <p>
+        <label style="margin-left: 50px;">Address :</label>
+        <input type="text" id="address" placeholder="ENTER ADDRESS" required style="margin-left: 15px;" size="60px" />
+    </p>
+    <p>
+        <label style="margin-left: 50px;" for="select county">County :</label>
+        <select style="margin-left: 20px;" name="country" required id="country" >
+            <option value="">(please select a country)</option>
+            <option value="india">india</option>
+            <option value="america">america</option>
+            <option value="china">china</option>
+            <option value="korea">korea</option>
+            <option value="australia">australia</option>
+        </select>
+    </p>
+    <p>
+        <label style="margin-left: 50px;">ZIP code :</label>
+        <input type="text" id="zip" placeholder="ENTER ZIP CODE" required style="margin-left: 9px;" size="24px" />
+    </p>
+    <p>
+        <label style="margin-left: 50px;">Email :</label>
+        <input type="email" id="email" placeholder="ENTER EMAIL" required style="margin-left: 30px;" size="60px" />
+    </p>
+    <p>
+        <label style="margin-left: 50px;">Sex :</label>
+        <input  style="margin-left: 45px;"  type="radio" id="sex"  value="male" required>Male
+        <input  type="radio" id="sex" value="female" required>Female
+    </p>
+    <p>
+        <label  style="margin-left: 50px;" >Language :</label>
+        <input  type="checkbox" id="language" value="english">English
+        <input  type="checkbox" id="language" value="non english">Non English
+    </p>
+    <p>
+        <label style="margin-left: 50px;">About :</label>
+        <textarea style="margin-left: 30px;" placeholder="WRITE DOWN YOUR REVIEW" name="about" required id="about" cols="49" rows="10"></textarea>
+    </p>
+    <p>
+        <button style="margin-left: 300px;" type="submit" value="submit">submit</button>
+    </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+var x = 10;
+document.write(x + "<br>");
+var result = x += 4;
+document.write(x +"<br>");
+var result1 = x -= 3;
+document.write(x + "<br>");
+var result2 = x *= 2;
+document.write(x + "<br>");
+var result3 = x /= 3;
+document.write(x + "<br>");
+var result4 = x%= 5;
+document.write(x + "<br>");
